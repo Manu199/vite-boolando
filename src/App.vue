@@ -1,23 +1,23 @@
 <script>
 
-import Header from './components/Header.Vue';
+import Heaader from './components/Heaader.vue';
 import Main from './components/Main.vue';
 import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-    Header,
+    Heaader,
     Main,
-    Footer
-  }
+    Footer,
+}
 }
 </script>
 
 
 <template>
   
-  <Header />
+  <Heaader />
   <Main />
   <Footer />
 
@@ -27,6 +27,7 @@ export default {
 
 <style lang="scss">
 
+@import 'bootstrap/scss/bootstrap';
 @use './scss/main.scss';
 
 </style>

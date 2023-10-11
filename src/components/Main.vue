@@ -11,12 +11,13 @@ export default {
     
     <div class="card-container">
       <div class="card uno">
-          <img src="img/1.webp" alt="card1" class="card1">
+
+           <img src="img/1.webp" alt="card1" class="card1">
           <img src="img/1b.webp" alt="card1b" class="card1b">
-          <div>
-          <span class="percentuale">-30%</span>
-          <span class="sostenibilità">Sostenibilità</span>
-        </div>
+          <div class="flag">
+            <span class="percentuale">-30%</span>
+            <span class="sostenibilità">Sostenibilità</span>
+          </div>
           <span class="heart">&hearts;</span>
         <div>
           <span class="brand">Levi's</span>
@@ -55,8 +56,11 @@ export default {
     <div class="card-container">
       <div class="card quattro">
           <img src="img/4.webp" alt="card4">
-          <span class="percentuale">-30%</span>
-          <span class="sostenibilità">Sostenibilità</span>
+          <div class="flag">
+
+            <span class="percentuale">-30%</span>
+            <span class="sostenibilità">Sostenibilità</span>
+          </div>
           <span class="heart">&hearts;</span>
         <div>
           <span class="brand">Levi's</span>

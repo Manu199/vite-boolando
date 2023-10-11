@@ -94,7 +94,8 @@ main {
 .heart:hover{
   cursor: pointer;
   color: red;
-  z-index: 999;
+  z-index: 9999;
+  position: absolute;
 
 }
 .card {
@@ -104,23 +105,23 @@ main {
   min-width: none;  
 }
 .card1{
-  z-index: 2;
+  z-index: 0;
   position: absolute;
 }
 .card1b{
-  position: absolute;
-  z-index: 1;
+  position: relative;
+  z-index: -1;
 }
 
-.card1:hover{
-  z-index: 0;
+.uno:hover .card1{
+  display: none;
 }
-/* .card img {
+.card img {
   max-width: 400px; 
   height: 600px; 
   object-fit: cover;
   min-width: 200px;
-} */
+}
 
 .uno{
 
@@ -146,6 +147,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .originale{
   text-decoration: line-through;
+  margin-left: 8px;
 }
 footer{
   background-color: #1A1A1A;
@@ -172,4 +174,28 @@ footer{
 }
 .social{
   padding: 15px;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  position: absolute;
+  bottom: 150px;
+  left: 0px;
+}
+
+.flag .percentuale {
+  left: 0;
+  bottom: -30px;
+}
+
+.flag .sostenibilità {
+  left: 0;
+  bottom: 0;
+}
+
+.info:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
